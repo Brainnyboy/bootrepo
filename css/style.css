@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Header Design */
+
+.navbar-light .navbar-brand {
+    font-weight: bolder;
+    color: red !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: no;
+    color: rgba(255,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+
+.fa-bars:before {
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-item a:hover {
+    color: rgba(255,0,0,0.2);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255,0,0,.9)
+}
+
+
+
+/* First Card Design */
+
+.card {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.second-card {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+
+/* Second Card Design */
+
+.second-card-item {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+/* Media queries Clases */
+
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        border-bottom: solid 2px red !important;
+        padding-bottom: 16px;
+        padding-top: 10px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 320px) {
+    .navbar-expand-md {
+        border-bottom: solid 2px red;
+        padding-bottom: 16px;
+        padding-top: 10px;
+        margin-bottom: 16px;
+    }
+
+}
+
+.bgimage{
+    width: 100%;
+}
